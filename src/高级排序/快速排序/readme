@@ -1,0 +1,3 @@
+快速排序：在数组array[]中随机选择一个值array[i]作为基值(暂存在x中），定义两个下标low与high，
+         分别从数组两边遍历（low++，high--），在满足low<high的情况下，直到array[low]>x且array[high]<x时，
+         交换low与high处的值。当low==high时，将x赋值给array[low]。
